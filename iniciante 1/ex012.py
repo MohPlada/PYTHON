@@ -1,0 +1,6 @@
+print("-" * 20)
+print("Convertor para DÓLAR")
+print("-" * 20)
+real = int(input("Digite quanto você gostaria de converter:"))
+conversao = (real / 5.24)
+print(f"Você coverteu {real}reais em {conversao:.2f} dólares.")
