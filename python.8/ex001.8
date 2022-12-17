@@ -1,0 +1,20 @@
+
+"""[Exercício 1] Escreva um programa que leia
+vários números inteiros e só pare quando o
+usuário digitar o valor 999. No final, mostre
+quantos números foram digitados e qual foi a
+soma entre eles."""
+
+numeros = 0
+contador = 0
+soma = 0
+
+while True:
+    numeros = int(input("Digite um número: "))
+    if numeros == 999:
+        break
+    else:
+        soma += numeros
+        contador+= 1
+print(f"Soma = {soma}")
+print(f"Contador = {contador}")
